@@ -1,8 +1,19 @@
-@media print{
-  .no-print{
-    display:none;
-  }
-  .print{
-    display:block;
-  }
+@media print
+{    
+    .pagebreak
+    {
+      page-break-before: always;
+    }
+    .pagebreak
+    {
+      page-break-before:always;
+    }
+    .no-print
+    {
+        display: none !important;
+    }
+    .print
+    {
+        display: block !important;
+    }
 }
